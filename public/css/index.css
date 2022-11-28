@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrap {
+    width: 100%;
+    height: 1244.39px;
+}
+
+#Header {
+    width: 100%;
+    height: 80px;
+    border-top: 4px solid #387af0;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+#Header > #inner {
+    width: 1392px;
+    height: 76px;
+    margin: 0 auto;
+    padding: 3px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Header > #inner > #logo {
+    min-width: 215px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Header > #inner > #logo > a {
+    bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3074f0;
+}
+
+#Header > #inner > #gnb {
+    display: flex;
+    margin: 9px 0 0 0;
+    padding: 0px 8px 0px 80px;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+}
+
+#Header > #innner > #gnb > li {
+    display: flex;
+}
+
+#Header > #inner > #gnb > li > a {
+        font-size: 15px;
+    font-weight: 700;
+    color: black;
+    padding: 0 13px;
+    box-sizing: border-box;
+
+}
+
+#Header > #inner > #menu {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+
+#Contents > #contents {
+    width: 1392px;
+    height: 912px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#Contents > #contents > #active {
+    width: 672px;
+    height: 872px;
+    background: url(https://biz.kfcc.co.kr/resource/img/main/swiper_bg02_box.png);
+}
+
+#Contents > #contents > #main_contents {
+    margin: 0 0 0 48px;
+    display: flex;
+}
+
+#Contents > #contents > #main_contents > #menu_list {
+    width: 312px;
+    height: 872px;
+    
+}
+
+#main_contents > #menu_list > #tap_menu {
+    border: 1px solid #c2c2c2;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 456px;
+    
+}
+
+#main_contents > #menu_list > #banking_menu {
+    border: 1px solid #c2c2c2;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 368px;
+    margin-top: 48px;
+}
+
+#main_contents > #info_list {
+    width: 312px;
+    height: 872px;
+    margin: 0 0 0 48px;
+}
+
+#main_contents > #info_list > #info_login {
+    height: 204.39px;
+}
+
+#main_contents > #info_list > #info_login > #main_login {
+    height: 168px;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+    background: #F6F7FB;
+    padding: 21px 20px 20px;
+    border-radius: 15px;
+}
+
+#main_contents > #info_list > #info_login > #main_login > #title > span {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+}
+
+#main_contents > #info_list > #info_login > #main_login > #login_link {
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+#main_contents > #info_list > #info_login > #main_login > #login_link > a {
+    height: 55px;
+    border-radius: 3px;
+    background: #3074F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+#main_contents > #info_list > #info_login > #main_login > #login_link > a > span {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 0 0 10px;
+}
+
+#main_contents > #info_list > #info_login > #main_login > #login_help {
+    margin-top: 13px;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+}
+
+#main_contents > #info_list > #info_login > #main_login > #login_help > span {
+    font-size: 14px;
+    color: #555555;
+}
+
+#main_contents > #info_list > #info_login > #celti_login {
+    margin-top: 14px;
+}
+
+#main_contents > #info_list > #info_login > #celti_login > span {
+    font-size: 14px;
+    color: #555555;
+
+}
+
+#main_contents > #info_list > #info_notice {
+    height: 278.52px;
+    margin-top: 58px;
+}
+
+#main_contents > #info_list > #info_notice > .info_title > a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#main_contents > #info_list > #info_notice > #notice_list > .info {
+    margin-top: 25px;
+}
+
+#main_contents > #info_list > #info_notice > #notice_list > .info > a > span {
+    font-size: 16px;
+    color: #000000;
+}
+
+#main_contents > #info_list > #info_notice > #notice_list > .info > a > .date {
+    font-size: 14px;
+    color: #555555;
+    margin-top: 16px;
+    display: block;
+}
+
+#main_contents > #info_list > #info_service {
+    height: 122.97px;
+    background: gray;
+    margin-top: 58px;
+}
+
+#Footer {
+    margin-top: 70px;
+    border-top: 1px solid #c2c2c2;
+    box-sizing: border-box;
+}
+
+#Footer > #service_footer {
+    width: 1392px;
+    height: 72px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+}
+
+#service_footer > #service_box > a {
+    font-weight: 700;
+    color: #000;
+    margin: 0 32px 0 0;
+}
+
+#service_footer > #service_number {
+    display: flex;
+    font-weight: 700;
+    color: #000;
+}
+
+#service_footer > #service_number > #number_item1 > .kr {
+    margin: 0 23px 0 0;
+}
+
+#service_footer > #service_number > #number_item2 {
+    margin: 0 0 0 48px;
+}
+
+#service_footer > #service_number > #number_item2 > .ov {
+    margin: 0 23px 0 0;
+}
+
+#Footer > #inner_footer {
+    width: 100%;
+    height: 61.39px;
+    border-top: 1px solid #e6e6e6;
+    box-sizing: border-box;
+}
+
+#Footer > #inner_footer > #inner_cont {
+    margin: 0 auto;
+    width: 1392px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inner_footer > #inner_cont > #cont_nav {
+    margin-top: 20px;
+    padding: 0 0 15px 0;
+    box-sizing: border-box;
+}
+
+#inner_footer > #inner_cont > #cont_service {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#inner_cont > #cont_service > #service_ui {
+    margin: 0 20px 0 0;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+}
+
+#Footer > #copy_footer {
+    width: 1392px;
+    margin: 0 auto;
+}
+
+#copy_footer > #copy_box > span {
+    color: #555;
+    font-size: 14px;
+    line-height: 1;
+}
