@@ -429,7 +429,7 @@ a {
     width: 672px;
     height: 872px;
     display: flex;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 #active > #active_wrap1 {
@@ -807,6 +807,53 @@ a {
     border-radius: 15px;
     height: 368px;
     margin-top: 48px;
+    padding: 25px 22px 30px;
+}
+
+#banking_menu > .banking_link > div {
+    color: #000000;
+    font-size: 24px;
+}
+
+#banking_menu > .banking_link > div > .banking_title {
+    font-weight: 700;
+}
+
+#banking_menu > .banking_link > div > .banking_info {
+    
+    box-sizing: border-box;
+    color: #808080;
+    font-size: 14px;
+}
+
+#banking_menu > .banking_link > div > .banking_info > span {
+    display: block;
+    
+}
+
+#banking_menu > #banking_list {
+    margin-top: 10px;
+}
+
+#banking_menu > #banking_list > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#banking_menu > #banking_list > ul > li {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+#banking_menu > #banking_list > ul > li > a {
+    display: block;
+    padding: 11px 16px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 800;
+    background: #f7f7f7;
+    border-radius: 3px;
+    
 }
 
 #main_contents > #info_list {
@@ -904,9 +951,46 @@ a {
 }
 
 #main_contents > #info_list > #info_service {
+
     height: 122.97px;
-    background: gray;
     margin-top: 58px;
+    position: relative;
+}
+
+#info_service > div > a {
+    display: block;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#info_service > #service_time > span {
+    margin-top: 10px;
+    display: inline-block;
+    color: #808080;
+    font-size: 13px;
+}
+
+#info_service > #service_number {
+    margin-top: 20px;
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#info_service > #service_number > span {
+    margin-top: 4px;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#info_service > #service_chatbot > a {
+    position: absolute;
+    width: 114px;
+    height: 140px;
+    top: -3px;
+    right: -10px;
 }
 
 #Footer {
