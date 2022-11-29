@@ -425,11 +425,362 @@ a {
     display: flex;
 }
 
-#Contents > #contents > #active {
+#contents > #active {
     width: 672px;
     height: 872px;
+    display: flex;
+    /* overflow: hidden; */
+}
+
+#active > #active_wrap1 {
+    padding: 77px 18px 68px;
+    box-sizing: border-box;
+    position: relative;
+    background: url(https://biz.kfcc.co.kr/resource/img/main/swiper_bg01_box.png);
+}
+
+#active > #active_wrap1 > #active_img1 {
+    position: absolute;
+    top: 130px;
+    left: 380px
+}
+
+#active > #active_wrap1 > #active_tag > span {
+    color: #ff3d01;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+#active > #active_wrap1 > #active_tag {
+    padding: 0 0 0 28px;
+    box-sizing: border-box;
+}
+
+#active > #active_wrap1 > #active_info {
+    margin-top: 50px;
+    padding: 0 0 0 28px;
+    box-sizing: border-box;
+}
+
+#active > #active_wrap1 > #active_info > #active_title {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+#active > #active_wrap1 > #active_info > #active_title > span {
+    font-weight: 700;
+    
+}
+
+#active > #active_wrap1 > #active_info > #active_text {
+    margin-top: 32px;
+    font-size: 15px;
+    color: #555555;
+}
+
+#active > #active_wrap1 > #active_box {
+    margin-top: 100px;
+    display: flex;
+    width: 637px;
+    justify-content: space-between;
+    position: relative;
+}
+
+#active > #active_wrap1 > #active_box > a > div {
+    color: #000;
+    font-size: 19px;
+    font-weight: 700;
+    position: relative;
+}
+
+#active > #active_wrap1 > #active_box > a > div > div > span {
+    color: #888888;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+#active > #active_wrap1 > #active_box > a > #box1 > div > .box1_tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    background: #aa78dc;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+#active > #active_wrap1 > #active_box > a > #box1 > div > .box1_img1 {
+    position: absolute;
+    bottom: 28px;
+    left: 25px;
+}
+
+#active > #active_wrap1 > #active_box > a > #box1 > div > .box1_img2 {
+    position: absolute;
+    bottom: 55px;
+    left: 60px;
+}
+
+#active > #active_wrap1 > #active_box > a > #box2 > div > .box2_tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    background: #f49ac0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+#active > #active_wrap1 > #active_box > a > #box2 > div > .box2_img1 {
+    position: absolute;
+    bottom: 28px;
+    left: 25px;
+}
+
+#active > #active_wrap1 > #active_box > a > #box2 > div > .box2_img2 {
+    position: absolute;
+    bottom: 55px;
+    left: 60px;
+}
+
+#active > #active_wrap1 > #active_box > a > #box3 > div > .box3_tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    background: #f7c71d;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+#active > #active_wrap1 > #active_box > a > #box3 > div > .box3_img1 {
+    position: absolute;
+    bottom: 28px;
+    left: 25px;
+}
+
+#active > #active_wrap1 > #active_box > a > #box3 > div > .box3_img2 {
+    position: absolute;
+    bottom: 60px;
+    left: 63px;
+}
+
+#active > #active_wrap1 > #active_box > a > #box3 > div > .box3_img3 {
+    position: absolute;
+    bottom: 28px;
+    left: 75px;
+}
+
+
+#active > #active_wrap1 > #active_box > a > div {
+    width: 205px;
+    height: 280px;
+    border-radius: 3px;
+    background: #fff;
+    padding: 28px 28px 28px;
+    box-sizing: border-box;
+}
+
+/* -------------------active_wrap2-------------------------------- */
+#active > #active_wrap2 {
+    padding: 77px 18px 68px;
+    box-sizing: border-box;
+    position: relative;
     background: url(https://biz.kfcc.co.kr/resource/img/main/swiper_bg02_box.png);
 }
+
+#active > #active_wrap2 > #active_img2 {
+    position: absolute;
+    top: 130px;
+    left: 320px
+}
+
+#active > #active_wrap2 > #active_img3 {
+    position: absolute;
+    top: 300px;
+    left: 320px
+}
+
+#active > #active_wrap2 > #active_img4 {
+    position: absolute;
+    top: 300px;
+    left: 510px
+}
+
+#active > #active_wrap2 > #active_img5 {
+    position: absolute;
+    top: 300px;
+    left: 410px
+}
+
+#active > #active_wrap2 > #active_tag > span {
+    color: #ff3d01;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+#active > #active_wrap2 > #active_tag {
+    padding: 0 0 0 28px;
+    box-sizing: border-box;
+}
+
+#active > #active_wrap2 > #active_info {
+    margin-top: 50px;
+    padding: 0 0 0 28px;
+    box-sizing: border-box;
+    min-height: 286.99px;
+}
+
+#active > #active_wrap2 > #active_info > #active_title {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+#active > #active_wrap2 > #active_info > #active_title > span {
+    font-weight: 700;
+    
+}
+
+#active > #active_wrap2 > #active_info > #active_text {
+    margin-top: 32px;
+    font-size: 15px;
+    color: #555555;
+}
+
+#active > #active_wrap2 > #active_box {
+    margin-top: 100px;
+    display: flex;
+    width: 637px;
+    justify-content: space-between;
+    position: relative;
+}
+
+#active > #active_wrap2 > #active_box > a > div {
+    color: #000;
+    font-size: 19px;
+    font-weight: 700;
+    position: relative;
+}
+
+#active > #active_wrap2 > #active_box > a > div > div > span {
+    color: #888888;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+#active > #active_wrap2 > #active_box > a > #box1 > div > .box1_tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    background: #aa78dc;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+#active > #active_wrap2 > #active_box > a > #box1 > div > .box1_img1 {
+    position: absolute;
+    bottom: 28px;
+    left: 25px;
+}
+
+#active > #active_wrap2 > #active_box > a > #box1 > div > .box1_img2 {
+    position: absolute;
+    bottom: 55px;
+    left: 60px;
+}
+
+#active > #active_wrap2 > #active_box > a > #box2 > div > .box2_tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    background: #f49ac0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+#active > #active_wrap2 > #active_box > a > #box2 > div > .box2_img1 {
+    position: absolute;
+    bottom: 28px;
+    left: 25px;
+}
+
+#active > #active_wrap2 > #active_box > a > #box2 > div > .box2_img2 {
+    position: absolute;
+    bottom: 55px;
+    left: 60px;
+}
+
+#active > #active_wrap2 > #active_box > a > #box3 > div > .box3_tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    background: #f7c71d;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+#active > #active_wrap2 > #active_box > a > #box3 > div > .box3_img1 {
+    position: absolute;
+    bottom: 28px;
+    left: 25px;
+}
+
+#active > #active_wrap2 > #active_box > a > #box3 > div > .box3_img2 {
+    position: absolute;
+    bottom: 60px;
+    left: 63px;
+}
+
+#active > #active_wrap2 > #active_box > a > #box3 > div > .box3_img3 {
+    position: absolute;
+    bottom: 28px;
+    left: 75px;
+}
+
+
+#active > #active_wrap2 > #active_box > a > div {
+    width: 205px;
+    height: 280px;
+    border-radius: 3px;
+    background: #fff;
+    padding: 28px 28px 28px;
+    box-sizing: border-box;
+}
+
+/* ----------------------------------------------------------------- */
 
 #Contents > #contents > #main_contents {
     margin: 0 0 0 48px;
