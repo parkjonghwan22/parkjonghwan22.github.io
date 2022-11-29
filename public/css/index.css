@@ -45,6 +45,7 @@ a {
     font-size: 14px;
     font-weight: 500;
     color: #3074f0;
+    padding: 7px 0 0 10px;
 }
 
 #Header > #inner > #gnb {
@@ -58,22 +59,362 @@ a {
 
 #Header > #innner > #gnb > li {
     display: flex;
+    position: relative;
 }
 
 #Header > #inner > #gnb > li > a {
-        font-size: 15px;
+    font-size: 15px;
     font-weight: 700;
     color: black;
-    padding: 0 13px;
+    padding: 30px 13px;
     box-sizing: border-box;
+    
 
 }
 
+
+#Header > #inner > #gnb > li:hover > a::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 6px;
+    background-color: #ffeba5;
+    width: 30px;
+    top: 50px;
+    transform: translateX(-100%);
+}
+
+#Header > #inner > #gnb > li:hover > a > span {
+    color: #3074f0;
+}
+
+/* -----------------------submenu1--------------------------- */
+#gnb > li > .gnb_submenu1 {
+    position: absolute;
+    top : 90px;
+    z-index: 5;
+    padding-top: 8px;
+    display: none;
+}
+
+#gnb > li > .gnb_submenu1 > ul {
+    min-width: 240px;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 16px 0;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+}
+
+#gnb > li > .gnb_submenu1 > ul > li > a {
+    padding: 4px 25px 6px;
+    display: block;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+#gnb > #gnb_list1.on > .gnb_submenu1 {
+    display: block;
+}
+/* --------------------submenu2----------------------- */
+#gnb > li > .gnb_submenu2 {
+    position: absolute;
+    top : 90px;
+    z-index: 5;
+    padding-top: 8px;
+    display: none;
+}
+
+#gnb > li > .gnb_submenu2 > ul {
+    min-width: 240px;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 16px 0;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+}
+
+#gnb > li > .gnb_submenu2 > ul > li > a {
+    padding: 4px 25px 6px;
+    display: block;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+#gnb > #gnb_list2.on > .gnb_submenu2 {
+    display: block;
+}
+/* --------------------submenu3----------------------------- */
+#gnb > li > .gnb_submenu3 {
+    position: absolute;
+    top : 90px;
+    z-index: 5;
+    padding-top: 8px;
+    display: none;
+}
+
+#gnb > li > .gnb_submenu3 > ul {
+    min-width: 240px;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 16px 0;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+}
+
+#gnb > li > .gnb_submenu3 > ul > li > a {
+    padding: 4px 25px 6px;
+    display: block;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+#gnb > #gnb_list3.on > .gnb_submenu3 {
+    display: block;
+}
+/* --------------------submenu4----------------------------- */
+#gnb > li > .gnb_submenu4 {
+    position: absolute;
+    top : 90px;
+    z-index: 5;
+    padding-top: 8px;
+    display: none;
+}
+
+#gnb > li > .gnb_submenu4 > ul {
+    min-width: 240px;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 16px 0;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+}
+
+#gnb > li > .gnb_submenu4 > ul > li > a {
+    padding: 4px 25px 6px;
+    display: block;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+#gnb > #gnb_list4.on > .gnb_submenu4 {
+    display: block;
+}
+/* --------------------submenu5----------------------------- */
+#gnb > li > .gnb_submenu5 {
+    position: absolute;
+    top : 90px;
+    z-index: 5;
+    padding-top: 8px;
+    display: none;
+}
+
+#gnb > li > .gnb_submenu5 > ul {
+    min-width: 240px;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 16px 0;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+}
+
+#gnb > li > .gnb_submenu5 > ul > li > a {
+    padding: 4px 25px 6px;
+    display: block;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+#gnb > #gnb_list5.on > .gnb_submenu5 {
+    display: block;
+}
+/* --------------------submenu6----------------------------- */
+#gnb > li > .gnb_submenu6 {
+    position: absolute;
+    top : 90px;
+    z-index: 5;
+    padding-top: 8px;
+    display: none;
+}
+
+#gnb > li > .gnb_submenu6 > ul {
+    min-width: 240px;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 16px 0;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+}
+
+#gnb > li > .gnb_submenu6 > ul > li > a {
+    padding: 4px 25px 6px;
+    display: block;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+#gnb > #gnb_list6.on > .gnb_submenu6 {
+    display: block;
+}
+/* --------------------submenu7----------------------------- */
+#gnb > li > .gnb_submenu7 {
+    position: absolute;
+    top : 90px;
+    z-index: 5;
+    padding-top: 8px;
+    display: none;
+}
+
+#gnb > li > .gnb_submenu7 > ul {
+    min-width: 240px;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 16px 0;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+}
+
+#gnb > li > .gnb_submenu7 > ul > li > a {
+    padding: 4px 25px 6px;
+    display: block;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+#gnb > #gnb_list7.on > .gnb_submenu7 {
+    display: block;
+}
+/* --------------------submenu8----------------------------- */
+#gnb > li > .gnb_submenu8 {
+    position: absolute;
+    top : 90px;
+    z-index: 5;
+    padding-top: 8px;
+    display: none;
+}
+
+#gnb > li > .gnb_submenu8 > ul {
+    min-width: 240px;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 16px 0;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+}
+
+#gnb > li > .gnb_submenu8 > ul > li > a {
+    padding: 4px 25px 6px;
+    display: block;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+#gnb > #gnb_list8.on > .gnb_submenu8 {
+    display: block;
+}
+/* --------------------submenu9----------------------------- */
+#gnb > li > .gnb_submenu9 {
+    position: absolute;
+    top : 90px;
+    z-index: 5;
+    padding-top: 8px;
+    display: none;
+}
+
+#gnb > li > .gnb_submenu9 > ul {
+    min-width: 240px;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 16px 0;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+}
+
+#gnb > li > .gnb_submenu9 > ul > li > a {
+    padding: 4px 25px 6px;
+    display: block;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+#gnb > #gnb_list9.on > .gnb_submenu9 {
+    display: block;
+}
+/* --------------------submenu10----------------------------- */
+#gnb > li > .gnb_submenu10 {
+    position: absolute;
+    top : 90px;
+    z-index: 5;
+    padding-top: 8px;
+    display: none;
+}
+
+#gnb > li > .gnb_submenu10 > ul {
+    min-width: 240px;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 16px 0;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+}
+
+#gnb > li > .gnb_submenu10 > ul > li > a {
+    padding: 4px 25px 6px;
+    display: block;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+#gnb > #gnb_list10.on > .gnb_submenu10 {
+    display: block;
+}
+/* --------------------submenu11----------------------------- */
+#gnb > li > .gnb_submenu11 {
+    position: absolute;
+    top : 90px;
+    z-index: 5;
+    padding-top: 8px;
+    display: none;
+}
+
+#gnb > li > .gnb_submenu11 > ul {
+    min-width: 240px;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 16px 0;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+}
+
+#gnb > li > .gnb_submenu11 > ul > li > a {
+    padding: 4px 25px 6px;
+    display: block;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+#gnb > #gnb_list11.on > .gnb_submenu11 {
+    display: block;
+}
+
+/* ---------------------------------------------------------- */
 #Header > #inner > #menu {
     display: flex;
     align-items: center;
     margin-top: 6px;
 }
+
 
 #Contents > #contents {
     width: 1392px;
