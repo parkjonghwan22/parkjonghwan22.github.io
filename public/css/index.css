@@ -834,14 +834,126 @@ a {
     
 }
 
+/* ----------------------- tap_menu -------------------------- */
 #main_contents > #menu_list > #tap_menu {
-    border: 1px solid #c2c2c2;
+
     box-sizing: border-box;
     border-radius: 15px;
     height: 456px;
     
 }
 
+#tap_menu > #tap_head {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-top: 1px solid #c2c2c2;
+    border-left: 1px solid #c2c2c2;
+    border-right: 1px solid #c2c2c2;
+
+}
+
+#tap_menu > #tap_head > div {
+    z-index: 2;
+    overflow: initial;
+    margin: -1px 0 0;
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+    height: 50px;
+    width: 154.75px;
+    text-align: center;
+    background: #f8f8f8;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+}
+
+#tap_menu > #tap_head > #tapNav1 {
+    border-right: 1px solid #c2c2c2;
+    box-sizing: border-box;
+    border-radius: 0 15px 0 0;
+    cursor: pointer;
+}
+
+#tap_menu > #tap_head > #tapNav2 {
+    border-left: 1px solid #c2c2c2;
+    box-sizing: border-box;
+    border-radius: 15px 0 0 0;
+    cursor: pointer;
+}
+
+
+
+#tap_menu > #tap_body {
+    height: 406px;
+    padding: 0 0 12px;
+    border: 1px solid #c2c2c2;
+    border-top: 0;
+    border-radius: 0 0 15px 15px;
+    position: relative;
+}
+
+#tap_body > div {
+    position:absolute;
+}
+
+#tap_body > div > #Con_menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+#tap_body > div > #Con_menu > li {
+    position: relative;
+    padding: 0 16px;
+    width: 152px;
+    height: 136px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+#tap_body > div > #Con_menu > li > .item_link {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+}
+
+#tap_body > div > #Con_menu > li > .item_link > span {
+    display: block;
+    margin-top: 20px;
+}
+
+#tap_body > #tapCon1 {
+    display: none;
+}
+
+#tap_body > #tapCon2 {
+    display: none;
+}
+
+#tap_body > #tapCon1.on {
+    display: block;
+}
+
+#tap_body > #tapCon2.on {
+    display: block;
+}
+
+
+/* ---------------------- banking_menu ----------------------------- */
 #main_contents > #menu_list > #banking_menu {
     border: 1px solid #c2c2c2;
     box-sizing: border-box;

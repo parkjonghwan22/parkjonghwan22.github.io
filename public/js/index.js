@@ -129,3 +129,19 @@ const nextbutton = document.querySelector('.next_button')
 
 prevbutton.addEventListener('click', slide)
 nextbutton.addEventListener('click', slide)
+
+
+const tapCon1 = document.querySelector('#tapCon1')
+const tapCon2 = document.querySelector('#tapCon2')
+const tapNav1 = document.querySelector('#tapNav1')
+const tapNav2 = document.querySelector('#tapNav2')
+
+tapNav1.addEventListener('click', function(){
+    tapCon1.className = 'on'
+    tapCon2.className = ''
+})
+tapNav2.addEventListener('click', function(){
+    tapCon1.className = ''
+    tapCon2.className = 'on'
+})
+
