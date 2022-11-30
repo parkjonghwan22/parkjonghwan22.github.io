@@ -177,16 +177,28 @@
 
                 <div id="menu">
                     <div id="check">
-                    <a href="https://biz.kfcc.co.kr/ib20/mnu/CIB000000000016">
-                        <span>인증보안센터</span>
-                    </a>
+                        <a href="https://biz.kfcc.co.kr/ib20/mnu/CIB000000000016">
+                            <span>인증보안센터</span>
+                        </a>
                     </div>
-                    <div id="button">
-                        <img src="https://biz.kfcc.co.kr/resource/img/common/ui_ico_search.png"/>
+                    <div id="search">
+                        <button type="button" class="menu_search">
+                        </button>
                     </div>
                     <div id="hamberger">
                         <a href="">2</a>
                     </div>
+                </div>
+            </div>
+            <div id="search_area">
+                <div id="search_form">
+                    <form>
+                        <div id="text_form">
+                            <input type="text" class="search" placeholder="찾으시는 메뉴를 검색해주세요." maxlength="30"/>
+                            <button type="button" class="text_search"></button>
+                        </div>
+                        <button type="button" class="text_delete"></button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -406,7 +418,7 @@
                                 <div id="tapNav2"><span>주요메뉴</span></div>
                             </div>
                             <div id="tap_body">
-                                <div id="tapCon1">
+                                <div id="tapCon1" class="on">
                                     <ul id="Con_menu">
                                         <li>
                                             <button type="button" class="item_link">

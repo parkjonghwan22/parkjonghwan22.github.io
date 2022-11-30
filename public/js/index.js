@@ -145,3 +145,15 @@ tapNav2.addEventListener('click', function(){
     tapCon2.className = 'on'
 })
 
+
+const menu_search = document.querySelector('.menu_search')
+const search_area = document.querySelector('#search_area')
+const search_delete = document.querySelector('.text_delete')
+
+menu_search.addEventListener('click', function(){
+    search_area.className = 'on'
+})
+
+search_delete.addEventListener('click', function(){
+    search_area.className = ''
+})

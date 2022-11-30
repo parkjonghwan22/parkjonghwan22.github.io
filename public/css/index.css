@@ -21,6 +21,7 @@ a {
     height: 80px;
     border-top: 4px solid #387af0;
     border-bottom: 1px solid #c2c2c2;
+    position: relative;
 }
 
 #Header > #inner {
@@ -409,11 +410,104 @@ a {
 }
 
 /* ---------------------------------------------------------- */
+
 #Header > #inner > #menu {
     display: flex;
     align-items: center;
-    margin-top: 6px;
+    margin-top: 8px;
 }
+
+#menu > #check {
+    margin-right: 15px;
+}
+
+#menu > #check > a {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 0 0 27px;
+    width: 115px;
+    height: 30px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f3f3f3 url(https://biz.kfcc.co.kr/resource/img/common/ui_btn_certifate2_active.png) no-repeat center left 7px;
+}
+
+#menu > #check > a > span {
+    font-size: 14px;
+    display: block;
+    
+}
+
+#menu > #search > button {
+    width: 32px;
+    height: 32px;
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_ico_search.png) no-repeat center center;
+    border: 0;
+}
+
+#Header > #search_area {
+    position: relative;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+    padding: 30px 0 40px;
+    box-sizing: border-box;
+    z-index: 5;
+    background-color: #ffffff;
+    display: none;
+}
+
+#Header > #search_area > #search_form {
+    position: relative;
+    width: 1392px;
+    margin: 0 auto;
+    padding-right: 40px;
+}
+
+
+#search_area > #search_form > form > #text_form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#search_area > #search_form > form > #text_form > .search {
+    border: 0;
+    border-bottom: 2px solid #000000;
+    font-size: 24px;
+    padding: 0 75px 0 0;
+    height: 60px;
+    margin-right: 8px;
+    width: 100%;
+}
+
+#search_form > form > #text_form > .text_search {
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_ico_search_type1.png) no-repeat center center;
+    position: absolute;
+    top: 25%;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    cursor: pointer;
+}
+
+#search_form > form > .text_delete {
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_btn_close.png) no-repeat center center / 20px;
+    right: -1px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 25%;
+    border: 0;
+    cursor: pointer;
+}
+
+#Header > #search_area.on {
+    display: block;
+}
+
 
 
 #Contents > #contents {
