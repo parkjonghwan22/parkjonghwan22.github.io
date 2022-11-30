@@ -157,3 +157,19 @@ menu_search.addEventListener('click', function(){
 search_delete.addEventListener('click', function(){
     search_area.className = ''
 })
+
+
+const hamberger_btn = document.querySelector('.hamberger_btn')
+const ui_all_menu = document.querySelector('#ui_all_menu')
+const ui_delete = document.querySelector('.ui_delete')
+
+hamberger_btn.addEventListener('click', function(){
+    ui_all_menu.className = 'on'
+    console.log('1')
+
+})
+
+ui_delete.addEventListener('click', function(){
+    ui_all_menu.className = ''
+
+})
