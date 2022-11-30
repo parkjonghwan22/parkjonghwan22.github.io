@@ -521,7 +521,6 @@ a {
     background-color: #fff;
     border-radius: 0 0 8px 8px;
     box-shadow: 4px 4px 25px rgb(101 107 112 / 50%);
-    height: 950px;
     display: none;
 }
 
@@ -530,6 +529,7 @@ a {
     align-items: center;
     margin: 0 auto;
     padding-right: 52px;
+    padding-top: 10px;
     width: 1392px;
     box-sizing: border-box;
 }
@@ -569,6 +569,49 @@ a {
     display: block;
 }
 
+#hamberger > #ui_all_menu > #ui_section {
+    height: 860px;
+    overflow-y: scroll;
+}
+
+#ui_all_menu > #ui_section > .ui_section_wrap {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 56px 0;
+    width: 1392px;
+}
+
+
+#ui_section > .ui_section_wrap > .ui_section_list {
+    width: 16.66%;
+}
+
+#ui_section > .ui_section_wrap > .ui_section_list > .depth {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    font-size: 19px;
+    font-weight: 800;
+    color: #000;
+} 
+
+#ui_section > .ui_section_wrap > .ui_section_list > ul > li > .depth2 {
+    display: inline-block;
+    padding: 8px 4px;
+    font-size: 14px;
+    color: #000;
+}
+
+#ui_section > .ui_section_wrap > li:nth-child(1) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_ico_gnb02.png) no-repeat;
+    background-position: 0 0;
+}
+
+#ui_section > .ui_section_wrap > li:nth-child(2) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/main/img_asset_li_02.png) no-repeat;
+}
 /* --------------------- contents ----------------------------- */
 
 #Contents > #contents {
