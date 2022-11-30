@@ -430,6 +430,7 @@ a {
     height: 872px;
     display: flex;
     overflow: hidden;
+    position: relative;
 }
 
 #active > #active_wrap1 {
@@ -779,7 +780,47 @@ a {
     padding: 28px 28px 28px;
     box-sizing: border-box;
 }
+/* ----------------------- 슬라이드 기능 ------------------------- */
+#active > #active_wrap1.on {
+    position: absolute;
+    left: 0;
+    transition: all 1s;
+}
 
+#active > #active_wrap1.off {
+    position: absolute;
+    left: -673px;
+    transition: all 1s;
+}
+
+/* -------------------- button ----------------------------- */
+#active > #active_button {
+    position: absolute;
+}
+
+#active > #active_button > li > .prev_button {
+    position: absolute;
+    top: 400px;
+    left: 0;
+    width: 36px;
+    height: 64px;
+    box-shadow: 0 5px 20px 0 rgb(0, 0, 0 / 5%);
+    border-radius: 0 36px 36px 0;
+    border: 1px solid white;
+    background: #ffffffad url(https://biz.kfcc.co.kr/resource/img/main/ico_prev.png) no-repeat 8px center;
+}
+
+#active > #active_button > li > .next_button {
+    position: absolute;
+    top: 400px;
+    left: 637px;
+    width: 36px;
+    height: 64px;
+    box-shadow: 0 5px 20px 0 rgb(0, 0, 0 / 5%);
+    border-radius: 36px 0 0 36px;
+    border: 1px solid white;
+    background: #ffffffad url(https://biz.kfcc.co.kr/resource/img/main/ico_next.png) no-repeat 18px center;
+}
 /* ----------------------------------------------------------------- */
 
 #Contents > #contents > #main_contents {

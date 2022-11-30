@@ -97,3 +97,35 @@ gnb_list11.addEventListener('mouseover', function(){
 gnb_list11.addEventListener('mouseout', function(){
     gnb_list11.classList.remove('on')
 })
+
+
+const active = document.querySelectorAll('#active > div')
+console.log(active)
+
+let count = 0
+
+function slide(){
+    const pre1 = function(){
+        if(count === 0) {
+            return active.length - 1 
+        } else {
+            return count - 1
+        }
+    }
+    let pre = pre1()
+    active[count].className = "on"
+    active[pre].className = '' 
+
+    if(++count === active.length)
+    count = 0
+    
+}
+
+setInterval(slide,10000)
+
+const prevbutton = document.querySelector('.prev_button')
+const nextbutton = document.querySelector('.next_button')
+
+
+prevbutton.addEventListener('click', slide)
+nextbutton.addEventListener('click', slide)
