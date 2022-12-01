@@ -139,10 +139,14 @@ const tapNav2 = document.querySelector('#tapNav2')
 tapNav1.addEventListener('click', function(){
     tapCon1.className = 'on'
     tapCon2.className = ''
+    tapNav1.className = 'on'
+    tapNav2.className = ''
 })
 tapNav2.addEventListener('click', function(){
     tapCon1.className = ''
     tapCon2.className = 'on'
+    tapNav1.className = ''
+    tapNav2.className = 'on'
 })
 
 

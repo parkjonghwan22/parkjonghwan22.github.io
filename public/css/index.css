@@ -1203,6 +1203,18 @@ a {
     display: block;
 }
 
+#tap_menu > #tap_head > #tapNav1.on {
+    background: #fff;
+}
+
+#tap_menu > #tap_head > #tapNav2.on {
+    background: #fff;
+}
+
+
+
+
+
 
 /* ---------------------- banking_menu ----------------------------- */
 #main_contents > #menu_list > #banking_menu {
