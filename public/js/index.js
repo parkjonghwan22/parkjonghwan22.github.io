@@ -173,3 +173,18 @@ ui_delete.addEventListener('click', function(){
     ui_all_menu.className = ''
 
 })
+
+
+const ui_family = document.querySelector('#service_ui_family')
+const family_box = document.querySelector('#family_box')
+
+ui_family.addEventListener('click', function(){
+    if(family_box.className === 'on') {
+        family_box.className = 'off'
+        ui_family.className = 'off'
+    } else {
+        family_box.className = 'on'
+        ui_family.className = 'on'
+    }
+    
+})
