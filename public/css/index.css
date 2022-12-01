@@ -694,7 +694,23 @@ a {
 #active > #active_wrap1 > #active_img1 {
     position: absolute;
     top: 130px;
-    left: 380px
+    left: 380px;
+    opacity: 1;
+    animation: moving_10 1s alternate
+    
+}
+
+@keyframes moving_10 {
+    0% {
+        opacity: 0;
+        top: 250px;
+        transform: rotate(30deg);
+    }
+    100% {
+        opacity: 1;
+        top: 130px;
+        transform: rotate(0deg);
+    }
 }
 
 #active > #active_wrap1 > #active_tag > span {
@@ -772,12 +788,39 @@ a {
     position: absolute;
     bottom: 28px;
     left: 25px;
+    animation: size 1.5s
+    infinite alternate
+    linear 0s
+}
+
+@keyframes size {
+    0% {
+
+    }
+    100% {
+        transform: scale(1.2);
+    }
 }
 
 #active > #active_wrap1 > #active_box > a > #box1 > div > .box1_img2 {
     position: absolute;
     bottom: 55px;
     left: 60px;
+    animation: moving 1.5s
+    infinite alternate
+    linear 0s
+}
+
+@keyframes moving {
+    0% {
+        left: 60px;
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 40px;
+        opacity: 0;
+        transform: rotate(-90deg);
+    }
 }
 
 #active > #active_wrap1 > #active_box > a > #box2 > div > .box2_tag {
@@ -798,12 +841,27 @@ a {
     position: absolute;
     bottom: 28px;
     left: 25px;
+    animation: size 1.5s
+    infinite alternate
+    linear 0s
 }
 
 #active > #active_wrap1 > #active_box > a > #box2 > div > .box2_img2 {
     position: absolute;
     bottom: 55px;
     left: 60px;
+    animation: size_1 0.5s
+    infinite alternate
+    linear 0s
+}
+
+@keyframes size_1 {
+    0% {
+
+    }
+    100% {
+        transform: scale(1.4);
+    }
 }
 
 #active > #active_wrap1 > #active_box > a > #box3 > div > .box3_tag {
@@ -824,20 +882,50 @@ a {
     position: absolute;
     bottom: 28px;
     left: 25px;
+    animation: size_1 0.5s
+    infinite alternate
+    linear 0s
 }
 
 #active > #active_wrap1 > #active_box > a > #box3 > div > .box3_img2 {
     position: absolute;
     bottom: 60px;
     left: 63px;
+    animation: moving_2 0.3s
+    infinite alternate
+    linear 0s
+}
+
+@keyframes moving_2 {
+    0% {
+        bottom: 60px;
+    }
+    100% {
+        bottom: 30px;
+    }
 }
 
 #active > #active_wrap1 > #active_box > a > #box3 > div > .box3_img3 {
     position: absolute;
-    bottom: 28px;
+    bottom: 40px;
     left: 75px;
+    animation: moving_3 0.5s
+    infinite alternate
+    linear 0s
 }
 
+@keyframes moving_3 {
+    0% {
+        bottom: 40px;
+        
+    }
+    50% {
+        bottom: 35px;
+    }
+    100% {
+        bottom: 10px
+    }
+}
 
 #active > #active_wrap1 > #active_box > a > div {
     width: 205px;
@@ -956,13 +1044,42 @@ a {
     position: absolute;
     bottom: 28px;
     left: 25px;
+    animation: size_1 0.7s
+    infinite alternate
+    linear 0s
 }
+
+
 
 #active > #active_wrap2 > #active_box > a > #box1 > div > .box1_img2 {
     position: absolute;
     bottom: 55px;
     left: 60px;
+    animation: moving 1s
+    infinite alternate
+    linear 0s
 }
+
+#active > #active_wrap2 > #active_box > a > #box1 > div > .box1_img3 {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    animation: moving_4 1s
+    infinite alternate
+    linear 0s
+}
+
+@keyframes moving_4 {
+    0% {
+        opacity: 0;
+        transform: rotate(-45deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+
 
 #active > #active_wrap2 > #active_box > a > #box2 > div > .box2_tag {
     display: flex;
@@ -982,12 +1099,30 @@ a {
     position: absolute;
     bottom: 28px;
     left: 25px;
+    animation: size_1 0.7s
+    infinite alternate
+    linear 0s
 }
 
 #active > #active_wrap2 > #active_box > a > #box2 > div > .box2_img2 {
     position: absolute;
-    bottom: 55px;
-    left: 60px;
+    bottom: 30px;
+    left: 55px;
+    animation: moving_5 0.5s
+    infinite alternate
+    linear 0s
+}
+
+@keyframes moving_5 {
+    0% {
+        left: 55px;
+    }
+    50% {
+        left: 60px;
+    }
+    100% {
+        left: 80px
+    }
 }
 
 #active > #active_wrap2 > #active_box > a > #box3 > div > .box3_tag {
@@ -1008,20 +1143,53 @@ a {
     position: absolute;
     bottom: 28px;
     left: 25px;
+    animation: size_1 0.7s
+    infinite alternate
+    linear 0s
 }
 
 #active > #active_wrap2 > #active_box > a > #box3 > div > .box3_img2 {
     position: absolute;
-    bottom: 60px;
+    bottom: 70px;
     left: 63px;
+    animation: moving_6 0.5s
+    infinite alternate
+    linear 0s
 }
+
+@keyframes moving_6 {
+    0% {
+        bottom: 70px;
+    }
+    50% {
+        bottom: 60px;
+    }
+    100% {
+        bottom: 10px;
+    }
+}
+
 
 #active > #active_wrap2 > #active_box > a > #box3 > div > .box3_img3 {
     position: absolute;
-    bottom: 28px;
+    bottom: 50px;
     left: 75px;
+    animation: moving_7 0.5s
+    infinite alternate
+    linear 0s
 }
 
+@keyframes moving_7 {
+    0% {
+        bottom: 50px;
+    }
+    50% {
+        bottom: 40px;
+    }
+    100% {
+        bottom: 10px;
+    }
+}
 
 #active > #active_wrap2 > #active_box > a > div {
     width: 205px;
@@ -1210,11 +1378,6 @@ a {
 #tap_menu > #tap_head > #tapNav2.on {
     background: #fff;
 }
-
-
-
-
-
 
 /* ---------------------- banking_menu ----------------------------- */
 #main_contents > #menu_list > #banking_menu {
