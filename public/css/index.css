@@ -579,13 +579,14 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 56px 0;
+
     width: 1392px;
 }
 
 
 #ui_section > .ui_section_wrap > .ui_section_list {
     width: 16.66%;
+    padding: 30px 0;
 }
 
 #ui_section > .ui_section_wrap > .ui_section_list > .depth {
@@ -611,6 +612,58 @@ a {
 
 #ui_section > .ui_section_wrap > li:nth-child(2) > .depth {
     background: url(https://biz.kfcc.co.kr/resource/img/main/img_asset_li_02.png) no-repeat;
+}
+
+#ui_section > .ui_section_wrap > li:nth-child(3) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_ico_gnb02.png) no-repeat;
+    background-position: 0 -58px;
+}
+
+#ui_section > .ui_section_wrap > li:nth-child(4) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_ico_gnb02.png) no-repeat;
+    background-position: 0 -87px;
+}
+
+#ui_section > .ui_section_wrap > li:nth-child(5) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_ico_gnb02.png) no-repeat;
+    background-position: 0 -115px;
+}
+
+#ui_section > .ui_section_wrap > li:nth-child(6) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_ico_gnb02.png) no-repeat;
+    background-position: 0 -144px;
+}
+
+#ui_section > .ui_section_wrap > li:nth-child(7) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/main/img_asset_li_12.png) no-repeat;
+}
+
+#ui_section > .ui_section_wrap > li:nth-child(8) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_ico_gnb02.png) no-repeat;
+    background-position: 0 -202px;
+}
+
+#ui_section > .ui_section_wrap > li:nth-child(9) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_ico_gnb02.png) no-repeat;
+    background-position: 0 -231px;
+}
+
+#ui_section > .ui_section_wrap > li:nth-child(10) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_ico_gnb02.png) no-repeat;
+    background-position: 0 -259px;
+}
+
+#ui_section > .ui_section_wrap > li:nth-child(11) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_ico_gnb02.png) no-repeat;
+    background-position: 0 -289px;
+}
+
+#ui_section > .ui_section_wrap > li:nth-child(12) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/common/ui_ico_gnb02.png) no-repeat;
+    background-position: 0 -318px;
+}
+#ui_section > .ui_section_wrap > li:nth-child(13) > .depth {
+    background: url(https://biz.kfcc.co.kr/resource/img/main/img_asset_li_14.png) no-repeat;
 }
 /* --------------------- contents ----------------------------- */
 
@@ -1259,7 +1312,7 @@ a {
     box-sizing: border-box;
 }
 
-#main_contents > #info_list > #info_login > #main_login > #login_help > span {
+#main_contents > #info_list > #info_login > #main_login > #login_help > span > a {
     font-size: 14px;
     color: #555555;
 }
@@ -1268,7 +1321,7 @@ a {
     margin-top: 14px;
 }
 
-#main_contents > #info_list > #info_login > #celti_login > span {
+#main_contents > #info_list > #info_login > #celti_login > span > a {
     font-size: 14px;
     color: #555555;
 
