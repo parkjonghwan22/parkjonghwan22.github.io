@@ -114,7 +114,7 @@ function slide(){
     }
     let pre = pre1()
     active[count].className = "on"
-    active[pre].className = '' 
+    active[pre].className = 'off' 
 
     if(++count === active.length)
     count = 0

@@ -687,7 +687,7 @@ a {
 #active > #active_wrap1 {
     padding: 77px 18px 68px;
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     background: url(https://biz.kfcc.co.kr/resource/img/main/swiper_bg01_box.png);
 }
 
@@ -940,7 +940,7 @@ a {
 #active > #active_wrap2 {
     padding: 77px 18px 68px;
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     background: url(https://biz.kfcc.co.kr/resource/img/main/swiper_bg02_box.png);
 }
 
@@ -953,19 +953,34 @@ a {
 #active > #active_wrap2 > #active_img3 {
     position: absolute;
     top: 300px;
-    left: 320px
+    left: 320px;
+    animation: jumping 1s
+    linear 0s
+    infinite alternate
+}
+
+@keyframes jumping {
+    0% {  }
+    95% { top: 290px; }
+    100% { top: 285px; }
 }
 
 #active > #active_wrap2 > #active_img4 {
     position: absolute;
     top: 300px;
-    left: 510px
+    left: 510px;
+    animation: jumping 1s
+    linear 0s
+    infinite alternate
 }
 
 #active > #active_wrap2 > #active_img5 {
     position: absolute;
     top: 300px;
-    left: 410px
+    left: 410px;
+    animation: jumping 1s
+    linear 0s
+    infinite alternate
 }
 
 #active > #active_wrap2 > #active_tag > span {
@@ -1200,16 +1215,18 @@ a {
     box-sizing: border-box;
 }
 /* ----------------------- 슬라이드 기능 ------------------------- */
-#active > #active_wrap1.on {
+#active > .on {
     position: absolute;
     left: 0;
     transition: all 1s;
+
 }
 
-#active > #active_wrap1.off {
+#active > .off {
     position: absolute;
     left: -673px;
     transition: all 1s;
+
 }
 
 /* -------------------- button ----------------------------- */
@@ -1227,6 +1244,7 @@ a {
     border-radius: 0 36px 36px 0;
     border: 1px solid white;
     background: #ffffffad url(https://biz.kfcc.co.kr/resource/img/main/ico_prev.png) no-repeat 8px center;
+    z-index: 3;
 }
 
 #active > #active_button > li > .next_button {
@@ -1239,6 +1257,7 @@ a {
     border-radius: 36px 0 0 36px;
     border: 1px solid white;
     background: #ffffffad url(https://biz.kfcc.co.kr/resource/img/main/ico_next.png) no-repeat 18px center;
+    z-index: 3;
 }
 /* ----------------------------------------------------------------- */
 
